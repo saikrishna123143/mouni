@@ -4,7 +4,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const response = await fetch("/login", {
+    const response = await fetch("/api/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
